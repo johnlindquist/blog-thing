@@ -1,5 +1,4 @@
 import React from 'react'
-import 'tailwindcss/dist/tailwind.css'
 
 class Bio extends React.Component {
   render() {

@@ -4430,6 +4430,10 @@ button,
  * @import "utilities/skew-transforms";
  */
 
+a:visited {
+  color: #3490dc;
+}
+
 .post :matches(h1,h2,h3,h4) {
   padding-top: 2rem;
   padding-bottom: 0.5rem;

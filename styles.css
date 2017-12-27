@@ -56,6 +56,10 @@
  * @import "utilities/skew-transforms";
  */
 
+a:visited {
+  @apply text-blue;
+}
+
 .post :matches(h1,h2,h3,h4) {
   @apply pt-8 pb-2 no-underline;
 }

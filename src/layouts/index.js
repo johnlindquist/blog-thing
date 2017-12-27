@@ -1,4 +1,4 @@
-import 'tailwindcss/dist/tailwind.css'
+import '../output.css'
 import React from 'react'
 import Link from 'gatsby-link'
 

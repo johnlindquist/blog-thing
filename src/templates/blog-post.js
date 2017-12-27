@@ -1,9 +1,8 @@
-import '../output.css'
 import React from 'react'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 
-import Bio from '../components/Bio'
+import Bio from '~/components/Bio'
 
 class BlogPostTemplate extends React.Component {
   render() {
