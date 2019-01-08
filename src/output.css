@@ -4430,13 +4430,26 @@ button,
  * @import "utilities/skew-transforms";
  */
 
-a:visited {
-  color: #3490dc;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 }
 
-.post :matches(h1,h2,h3,h4) {
-  padding-top: 2rem;
+.post p {
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  line-height: 1.25;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4 {
+  padding-top: 1.5rem;
   text-decoration: none;
 }
 

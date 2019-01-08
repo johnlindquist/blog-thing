@@ -33,6 +33,13 @@ module.exports = {
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          `gatsby-remark-emoji`,
+          {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+              plugins: [`gatsby-remark-autolink-headers`],
+            },
+          },
         ],
       },
     },

@@ -1,4 +1,5 @@
 import '../output.css'
+import 'typeface-roboto-slab'
 import React from 'react'
 import Link from 'gatsby-link'
 
@@ -30,10 +31,16 @@ class Template extends React.Component {
       )
     }
     return (
-      <div className={`py-3 flex justify-center`}>
+      <div className={`p-3 flex justify-center`}>
         <div className={`max-w-md`}>
           <div className={`py-3 flex justify-center`}>{header}</div>
           {children()}
+          <h4 className="text-black text-sm text-center">
+            <span>See my work at </span>
+            <a className={`no-underline`} href="https://egghead.io">
+              egghead.io
+            </a>
+          </h4>
         </div>
       </div>
     )
